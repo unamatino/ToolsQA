@@ -11,8 +11,10 @@ public class Test_001 extends BaseTest {
 	public static void main(String[] args) {
 		BaseTest basetest = new BaseTest();
 		basetest.firefoxBrowserSetUp();
-		HomePagePO hpo = new HomePagePO(driver);
-		hpo.elements().click();
+//		HomePagePO hpo = new HomePagePO(driver);
+//		hpo.elements().click();
+		
+//		Comment
 		basetest.tearDownBrowser();
 	}
 
